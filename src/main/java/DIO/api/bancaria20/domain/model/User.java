@@ -13,6 +13,9 @@ public class User {
 
     private String name;
 
+//    @Version
+//    private Integer version;
+
     @OneToOne(cascade = CascadeType.ALL)
     private Account account;
 
